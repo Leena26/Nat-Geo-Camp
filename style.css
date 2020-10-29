@@ -1,0 +1,79 @@
+@import url('https://fonts.googleapis.com/css2?family=Bubblegum+Sans&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-family: 'Bubblegum Sans', cursive;
+}
+
+#container{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 500px;
+}
+
+.bar{
+    display: flex;
+    justify-content: center;
+    height: 60px;
+    align-items: center;
+    background-color: black;
+}
+
+a{
+    text-decoration: none;
+    color: white;
+}
+
+#button{
+    background-color: #ffcc00;
+    padding: 8px;
+}
+
+header img{
+    max-width: 100%;
+}
+
+div>img{
+    width: 25%;
+}
+
+#why{
+    min-height: 500px;
+    text-align: center;
+}
+
+#why p{
+    padding-left: 20%;
+    padding-right: 20%;
+}
+
+p{
+    font-size: 25px;
+}
+
+footer{
+    background-image: url("http://i1.faceprep.in/prograd-junior/black-background.png");
+    background-size: 100% 100%;
+    padding: 10% 0%;
+    color: white;
+}
+
+h1{
+    font-size: 70px;
+    margin-top: 100px;
+    text-align: center;
+}
+
+footer p{
+    padding: 0% 20%;
+    text-align: center;
+}
+
+.bar p{
+    color: white;
+}
